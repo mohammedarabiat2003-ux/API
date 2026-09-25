@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+<div class="logo">
+    <a href="index.html">
+        <img src="images/logo.png" alt="Fake Store Logo" class="logo-img">
+    </a>
+</div> 
+       <div class="menu-toggle" id="menu-toggle">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Categories</a></li>
+            <li>
+                <a href="#">
+                    Cart (<span id="cart-count">0</span>)
+                </a>
+            </li>
+        </ul>
+
+        <div class="auth-buttons">
+
+            <button id="dark-mode-btn">
+                🌙
+            </button>
+
+            <button id="login-btn">
+                Login
+            </button>
+
+            <button id="logout-btn">
+                Logout
+            </button>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Discover Amazing Products</h2>
+    <p>Shop modern fashion and electronics</p>
+</section>
+
+<section class="search-section">
+
+    <input
+    type="text"
+    id="search-input"
+    placeholder="Search products..."
+    >
+</section>
+
+<section class="categories">
+    <button class="filter-btn" data-category="all">
+        All
+    </button>
+
+    <button class="filter-btn" data-category="electronics">
+        Electronics
+    </button>
+
+    <button class="filter-btn" data-category="jewelery">
+        Jewelery
+    </button>
+
+    <button class="filter-btn" data-category="men's clothing">
+        Men
+    </button>
+
+    <button class="filter-btn" data-category="women's clothing">
+        Women
+    </button>
+</section>
+
+
+<div id="loading">
+    Loading Products...
+</div>
+
+<main id="products-container"></main>
+<div id="pagination"></div>
+<div id="product-modal" class="modal">
+    <div class="modal-content">
+        <span id="close-modal">&times;</span>
+        <img id="modal-img">
+        <h2 id="modal-title"></h2>
+        <p id="modal-price"></p>
+        <p id="modal-desc"></p>
+    </div>
+</div>
+
+<div id="toast"></div>
+
+<footer>
+    © 2026 Fake Store Project
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
