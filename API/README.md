@@ -3,7 +3,7 @@
 A modern and responsive e-commerce web application built using JavaScript and Fake Store API.
 
 ## 🚀 Live Demo
-https://ayaalsaudi6-blip.github.io/fakestore/
+https://github.com/mohammedarabiat2003-ux/API.git
 
 ## Features ✨
 
